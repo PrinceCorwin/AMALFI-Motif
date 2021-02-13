@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--clr-contrast1);
+}
+
+:root {
+  --clr-light: #e6eaeb;
+  --clr-primary: #3b5360;
+  --clr-dark: #3b4160;
+  --clr-contrast1: #8b5e83;
+  --clr-contrast2: #d6b0b1;
+  --ff-primary: "Righteous", cursive;
+  --ff-accent: ;
+}
+
+body {
+  text-align: center;
+  background-color: var(--clr-light);
+}
+
+h1 {
+  font-size: 6rem;
+  color: var(--clr-dark);
+  font-family: var(--ff-primary);
+  /* text-shadow: 3px 0 var(--clr-contrast2); */
+}
+
+footer {
+  background-color: var(--clr-dark);
+  font-family: sans-serif;
+}
+
+.a {
+  background-image: url("images/high-hat-icon.svg");
+}
+.s {
+  background-image: url("images/tom2-drum-icon.svg");
+}
+
+.d {
+  background-image: url("images/snair-drum-icon.svg");
+}
+
+.j {
+  background-image: url("images/bass-icon.svg");
+}
+
+.k {
+  background-image: url("images/tom-drum-icon.svg");
+}
+
+.l {
+  background-image: url("images/cymbal-icon.svg");
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+.thin-title {
+  font-weight: 200;
+  color: var(--clr-dark);
+}
+
+.drum {
+  /* outline: none; */
+  /* border: 10px solid var(--clr-contrast2); */
+  /* outline: 10px solid red; */
+
+  /* font-size: 3rem; */
+  /* font-family: "Satisfy", cursive; */
+  /* line-height: 2; */
+  /* font-weight: 900; */
+  color: transparent;
+  /* text-shadow: 3px 0 #dbedf3; */
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  /* background-color: white; */
+}
+#music-scale {
+  width: 100%;
+}
