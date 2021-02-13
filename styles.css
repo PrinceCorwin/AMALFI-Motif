@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--clr-contrast1);
+  font-family: var(--ff-primary);
 }
 
 :root {
@@ -31,9 +32,20 @@ h1 {
 
 footer {
   background-color: var(--clr-dark);
-  font-family: sans-serif;
+  font-family: var(--ff-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
 }
-
+.instructions {
+  margin: 30px auto;
+  color: var(--clr-light);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: var(--clr-contrast1);
+  width: fit-content;
+}
 .a {
   background-image: url("images/high-hat-icon.svg");
 }
@@ -100,4 +112,10 @@ footer {
 }
 #music-scale {
   width: 100%;
+}
+#ami-logo,
+#yt-logo,
+#fb-logo {
+  /* margin-top: 10px; */
+  cursor: pointer;
 }
