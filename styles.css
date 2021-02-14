@@ -14,13 +14,15 @@
   --clr-dark: #3b4160;
   --clr-contrast1: #8b5e83;
   --clr-contrast2: #d6b0b1;
+  --clr-contrast3: #e6e8eb;
+
   --ff-primary: "Righteous", cursive;
   --ff-accent: ;
 }
 
 body {
   text-align: center;
-  background-color: var(--clr-light);
+  background: linear-gradient(to right bottom, var(--clr-light), #ebe7e6);
 }
 
 h1 {
