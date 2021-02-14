@@ -55,6 +55,10 @@ h1 {
   color: white;
   text-decoration: none;
 }
+button {
+  width: 150px !important;
+  background-size: 150px !important;
+}
 .a {
   background-image: url("images/high-hat-icon.svg");
 }
@@ -85,6 +89,7 @@ h1 {
   flex-wrap: wrap;
 }
 .instructions {
+  font-family: var(--ff-primary);
   margin: 30px auto;
   color: var(--clr-light);
   padding: 10px;
