@@ -13,9 +13,20 @@ for (let i = 0; i < numDrums.length; i++) {
     let soundKey = this.textContent;
     let audio = new Audio(sounds[soundKey]);
     audio.play();
+    buttonAnimation(soundKey);
   });
 }
 document.addEventListener("keydown", function (event) {
   let audio = new Audio(sounds[event.key]);
   audio.play();
+  buttonAnimation(event.key);
 });
+
+function buttonAnimation(currentKey) {
+  let pressedKey = document.querySelector("." + currentKey);
+  console.log(pressedKey);
+  pressedKey.classList.add("pressed");
+  setTimeout(() => {
+    pressedKey.classList.remove("pressed");
+  }, 100);
+}
