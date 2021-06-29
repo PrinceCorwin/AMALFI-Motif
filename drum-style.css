@@ -22,7 +22,9 @@
 
 body {
   text-align: center;
-  background: linear-gradient(to right bottom, var(--clr-light), #ebe7e6);
+  /* background: linear-gradient(to right bottom, var(--clr-light), #ebe7e6); */
+  background-image: url("images/drum-background.png");
+  background-size: cover;
 }
 #container {
   position: relative;
